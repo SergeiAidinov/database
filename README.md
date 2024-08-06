@@ -3,7 +3,7 @@
 ![IntelliJ IDEA](https://img.shields.io/badge/IntelliJIDEA-000000.svg?style=for-the-badge&logo=intellij-idea&logoColor=white)
 ![Debian](https://img.shields.io/badge/Debian-D70A53?style=for-the-badge&logo=debian&logoColor=white)
 
-1. SQL – скрипты для создания таблиц и выполнения запроса находятся в папке sql
+1. SQL – скрипты для создания таблиц и выполнения запроса находятся в папке [sql](https://github.com/SergeiAidinov/database/blob/rm_file/sql/script.sql)
 
 2. Для работы с базой данных использовался синтаксис PostgreSQL
 
