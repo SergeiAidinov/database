@@ -9,6 +9,6 @@
 
 3. В таблицах создавались не все поля, а лишь те, что необходимы для выполнения запроса.
 
-4. Программа на Java написана в виде [утильного класса](https://github.com/SergeiAidinov/database/blob/rm_file/src/main/Utils.java) со статическими методами, для которых сделаны [тесты](https://github.com/SergeiAidinov/database/blob/rm_file/src/test/UtilsTest.java)
+4. Логика программы на Java реализована в [утильном классе](https://github.com/SergeiAidinov/database/blob/rm_file/src/main/Utils.java) со статическими методами, для которых сделаны [тесты](https://github.com/SergeiAidinov/database/blob/rm_file/src/test/UtilsTest.java)
 
 5. Программа собиралась с помощью IDE IntelliJ IDEA
