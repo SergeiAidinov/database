@@ -34,7 +34,7 @@ select hppersongeneric.sysid,
        coalesce(hppersondependant.familyname, 'NONE')                 as relative_familyname,
        coalesce(hppersondependant.givenname, 'NONE')                  as relative_givenname,
        coalesce(hppersondependant.contactrelationship:: text, 'NONE') as relation_degree,
-       coalesce(hppersondependant.birthday:: text, 'NONE')            as relation_degree
+       coalesce(hppersondependant.birthday:: text, 'NONE')            as birthday
 from hppersongeneric
          left join hppersondependant on hppersondependant.sysid = hppersongeneric.sysid
 where hppersongeneric.personId = 'test';
